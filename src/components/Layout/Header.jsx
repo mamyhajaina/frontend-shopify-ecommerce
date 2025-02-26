@@ -70,7 +70,7 @@ const Header = ({ activeHeading }) => {
           <div className="w-[50%] relative">
             <input
               type="text"
-              placeholder="Search for product..."
+              placeholder="Recherche de produits..."
               value={searchTerm}
               onChange={handleSearchChange}
               className="h-[40px] w-full px-2 border-[#3957db] border-[2px] rounded-md"
@@ -110,7 +110,7 @@ const Header = ({ activeHeading }) => {
           <div className={`${styles.button}`}>
             <Link to={`${isSeller ? "/dashboard" : "/shop-create"}`}>
               <h1 className="text-[#fff] flex items-center">
-                {isSeller ? "Go Dashboard" : "Become Seller"}{" "}
+                {isSeller ? "Tableau de bord" : "Devenir vendeur"}{" "}
                 <IoIosArrowForward className="ml-1" />
               </h1>
             </Link>
@@ -320,7 +320,7 @@ const Header = ({ activeHeading }) => {
             <div className={`${styles.button} ml-4 !rounded-[4px]`}>
               <Link to={`${isSeller ? "/dashboard" : "/shop-create"}`}>
                 <h1 className="text-[#fff] flex items-center">
-                  {isSeller ? "Go Dashboard" : "Become Seller"}{" "}
+                  {isSeller ? "Tableau de bord" : "Devenir vendeur"}{" "}
                   <IoIosArrowForward className="ml-1" />
                 </h1>
               </Link>
